@@ -1,12 +1,13 @@
 //import "./Product.css";
-import "../assets/css/bootstrap.min.css";
-//import "../assets/css/font-awesome.min.css";
-import "../assets/css/elegant-icons.css";
-import "../assets/css/nice-select.css";
-//import "../assets/css/jquery-ui.min.css";
-//import "../assets/css/owl.carousel.min.css";
-import "../assets/css/slicknav.min.css";
-import "../assets/css/style.css";
+// import "../assets/css/bootstrap.min.css";
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import "../assets/css/font-awesome.min.css";
+// import "../assets/css/elegant-icons.css";
+// import "../assets/css/nice-select.css";
+// import "../assets/css/jquery-ui.min.css";
+// import "../assets/css/owl.carousel.min.css";
+// import "../assets/css/slicknav.min.css";
+// import "../assets/css/style.css";
 import { Link } from "react-router-dom";
 
 const Departments = ({ imageUrl, description, price, name, productId }) => {
@@ -58,7 +59,7 @@ const Departments = ({ imageUrl, description, price, name, productId }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="hero__item set-bg" data-setbg={require("img/hero/banner.jpg")}>
+                    <div className="hero__item set-bg" data-setbg={require("assets/img/logo/banner.jpg")}>
                         <div className="hero__text">
                             <span>FRUIT FRESH</span>
                             <h2>Vegetable <br />100% Organic</h2>

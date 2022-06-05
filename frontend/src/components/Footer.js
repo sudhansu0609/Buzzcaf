@@ -1,13 +1,13 @@
-//import "./Product.css";
-//import "../assets/css/bootstrap.min.css";
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-//import "../assets/css/font-awesome.min.css";
-import "../assets/css/elegant-icons.css";
-import "../assets/css/nice-select.css";
-//import "../assets/css/jquery-ui.min.css";
-//import "../assets/css/owl.carousel.min.css";
-import "../assets/css/slicknav.min.css";
-import "../assets/css/style.css";
+// import "./Product.css";
+//import "assets/css/bootstrap.min.css";
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import "assets/css/font-awesome.min.css";
+// import "assets/css/elegant-icons.css";
+// import "assets/css/nice-select.css";
+// import "assets/css/jquery-ui.min.css";
+// import "assets/css/owl.carousel.min.css";
+// import "assets/css/slicknav.min.css";
+// import "assets/css/style.css";
 import { Link } from "react-router-dom";
 
 const Footer = ({ imageUrl, description, price, name, productId }) => {
@@ -19,7 +19,7 @@ const Footer = ({ imageUrl, description, price, name, productId }) => {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                     <div className="footer__about">
                         <div className="footer__about__logo">
-                            <a href="./index.html"><img src={require("../assets/img/logo.png")} alt=""></img></a>
+                            <a href="./index.html"><img src={require("assets/img/logo.png")} alt=""></img></a>
                         </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
@@ -73,7 +73,7 @@ const Footer = ({ imageUrl, description, price, name, productId }) => {
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
   {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->*/}
   </p></div> 
-                        <div className="footer__copyright__payment"><img src={require("../assets/img/payment-item.png")} alt=""></img></div>
+                        <div className="footer__copyright__payment"><img src={require("assets/img/payment-item.png")} alt=""></img></div>
                     </div>
                 </div>
             </div>

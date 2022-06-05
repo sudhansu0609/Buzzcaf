@@ -1,12 +1,13 @@
 //import "./Product.css";
-import "../assets/css/bootstrap.min.css";
-//import "../assets/css/font-awesome.min.css";
-import "../assets/css/elegant-icons.css";
-import "../assets/css/nice-select.css";
-//import "../assets/css/jquery-ui.min.css";
-//import "../assets/css/owl.carousel.min.css";
-import "../assets/css/slicknav.min.css";
-import "../assets/css/style.css";
+// import "assets/css/bootstrap.min.css";
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import "assets/css/font-awesome.min.css";
+// import "assets/css/elegant-icons.css";
+// import "assets/css/nice-select.css";
+// import "assets/css/jquery-ui.min.css";
+// import "assets/css/owl.carousel.min.css";
+// import "assets/css/slicknav.min.css";
+// import "assets/css/style.css";
 import { Link } from "react-router-dom";
 
 const Featured = ({ imageUrl, description, price, name, productId }) => {
@@ -33,7 +34,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
         <div className="row featured__filter">
             <div className="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-1.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-1.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -48,7 +50,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-2.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-2.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -63,7 +66,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-3.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-3.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -78,7 +82,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-4.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-4.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -93,7 +98,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-5.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-5.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -108,7 +114,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-6.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-6.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -123,7 +130,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-7.jpg")}>
+                    <div className="featured__item__pic set-bg" >
+                    <img src={require("assets/img/featured/feature-7.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>
@@ -138,7 +146,8 @@ const Featured = ({ imageUrl, description, price, name, productId }) => {
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
                 <div className="featured__item">
-                    <div className="featured__item__pic set-bg" data-setbg={require("../assets/img/featured/feature-8.jpg")}>
+                    <div className="featured__item__pic set-bg">
+                    <img src={require("assets/img/featured/feature-8.jpg")} alt="" />
                         <ul className="featured__item__pic__hover">
                             <li><a href="#"><i className="fa fa-heart"></i></a></li>
                             <li><a href="#"><i className="fa fa-retweet"></i></a></li>

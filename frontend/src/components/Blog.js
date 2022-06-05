@@ -1,12 +1,4 @@
-//import "./Product.css";
-import "../assets/css/bootstrap.min.css";
-//import "../assets/css/font-awesome.min.css";
-import "../assets/css/elegant-icons.css";
-import "../assets/css/nice-select.css";
-//import "../assets/css/jquery-ui.min.css";
-//import "../assets/css/owl.carousel.min.css";
-import "../assets/css/slicknav.min.css";
-import "../assets/css/style.css";
+
 import { Link } from "react-router-dom";
 
 const Blog = ({ imageUrl, description, price, name, productId }) => {
@@ -25,7 +17,7 @@ const Blog = ({ imageUrl, description, price, name, productId }) => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                     <div className="blog__item">
                         <div className="blog__item__pic">
-                            <img src={("img/blog/blog-1.jpg")} alt=""></img>
+                            <img src={("assets/img/blog/blog-1.jpg")} alt="" />
                         </div>
                         <div className="blog__item__text">
                             <ul>
@@ -40,7 +32,7 @@ const Blog = ({ imageUrl, description, price, name, productId }) => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                     <div className="blog__item">
                         <div className="blog__item__pic">
-                            <img src={("img/blog/blog-2.jpg")} alt=""></img>
+                            <img src={("assets/img/blog/blog-2.jpg")} alt="" />
                         </div>
                         <div className="blog__item__text">
                             <ul>
@@ -55,7 +47,7 @@ const Blog = ({ imageUrl, description, price, name, productId }) => {
                 <div className="col-lg-4 col-md-4 col-sm-6">
                     <div className="blog__item">
                         <div className="blog__item__pic">
-                            <img src={("img/blog/blog-3.jpg")} alt=""></img>
+                            <img src={("assets/img/blog/blog-3.jpg")} alt="" />
                         </div>
                         <div className="blog__item__text">
                             <ul>

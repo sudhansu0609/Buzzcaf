@@ -1,12 +1,13 @@
 //import "./Product.css";
-import "../assets/css/bootstrap.min.css";
-//import "../assets/css/font-awesome.min.css";
-import "../assets/css/elegant-icons.css";
-import "../assets/css/nice-select.css";
-//import "../assets/css/jquery-ui.min.css";
-//import "../assets/css/owl.carousel.min.css";
-import "../assets/css/slicknav.min.css";
-import "../assets/css/style.css";
+// import "assets/css/bootstrap.min.css";
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import "assets/css/font-awesome.min.css";
+// import "assets/css/elegant-icons.css";
+// import "assets/css/nice-select.css";
+// import "assets/css/jquery-ui.min.css";
+// import "assets/css/owl.carousel.min.css";
+// import "assets/css/slicknav.min.css";
+// import "assets/css/style.css";
 import { Link } from "react-router-dom";
 
 const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
@@ -19,7 +20,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                 <div className="latest-prdouct__slider__item">
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={("img/latest-product/lp-1.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-1.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
@@ -28,7 +29,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                     </a>
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={require("../assets/img/latest-product/lp-2.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-2.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
@@ -37,7 +38,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                     </a>
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={require("../assets/img/latest-product/lp-3.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-3.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
@@ -48,7 +49,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                 <div className="latest-prdouct__slider__item">
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={require("../assets/img/latest-product/lp-1.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-1.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
@@ -57,7 +58,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                     </a>
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={require("../assets/img/latest-product/lp-2.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-2.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
@@ -66,7 +67,7 @@ const ReviewProducts = ({ imageUrl, description, price, name, productId }) => {
                     </a>
                     <a href="#" className="latest-product__item">
                         <div className="latest-product__item__pic">
-                            <img src={require("../assets/img/latest-product/lp-3.jpg")} alt=""></img>
+                            <img src={require("assets/img/latest-product/lp-3.jpg")} alt="" />
                         </div>
                         <div className="latest-product__item__text">
                             <h6>Crab Pool Security</h6>
