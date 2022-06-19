@@ -2,7 +2,7 @@
   "name": "buzzcaf",
   "version": "1.0.0",
   "description": "",
-  "homepage": ".",
+  "homepage": "www.buzzcaf.com",
   "main": "index.js",
   "scripts": {
     "start": "node backend/server.js",
