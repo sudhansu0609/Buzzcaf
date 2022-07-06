@@ -9,28 +9,28 @@ const Categories = ({ imageUrl, description, price, name, productId }) => {
     <div className="row">
         <div className="categories__slider owl-carousel">
             <div className="col-lg-3">
-                <div className="categories__item set-bg" data-setbg="assets/img/categories/cat-1.jpg">
-                    <h5><a href="#">Buzzcaf Desire</a></h5>
+                <div className="categories__item set-bg" data-setbg="assets/img/categories/original3.jpeg">
+                <h5><Link to="/pages/desire">Buzzcaf Desire</Link></h5> 
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="categories__item set-bg" data-setbg="assets/img/categories/cat-2.jpg">
-                    <h5><a href="#">Original</a></h5>
+                <div className="categories__item set-bg" data-setbg="assets/img/categories/original1.jpeg">
+                    <h5><Link to="/pages/original">Original</Link></h5>
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="categories__item set-bg" data-setbg="assets/img/categories/cat-3.jpg">
-                    <h5><a href="#">Chocolate</a></h5>
+                <div className="categories__item set-bg" data-setbg="assets/img/categories/chocolate1.jpeg">
+                    <h5><Link to="/pages/belgianChocolate">Chocolate</Link></h5>
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="categories__item set-bg" data-setbg="assets/img/categories/cat-4.jpg">
-                    <h5><a href="#">Caramel</a></h5>
+                <div className="categories__item set-bg" data-setbg="assets/img/categories/caramel.jpeg">
+                    <h5><Link to="/pages/caramel">Caramel</Link></h5>
                 </div>
             </div>
             <div className="col-lg-3">
-                <div className="categories__item set-bg" data-setbg="assets/img/categories/cat-5.jpg">
-                    <h5><a href="#">Hazelnut</a></h5>
+                <div className="categories__item set-bg" data-setbg="assets/img/categories/hazelnut1.jpeg">
+                    <h5><Link to="/pages/irishHazelnut">Hazelnut</Link></h5>
                 </div>
             </div>
         </div>
